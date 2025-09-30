@@ -136,3 +136,9 @@ body {
     font-weight: 500;
     margin-left: 5px;
 }
+
+.details .icons {
+    color: #007bff;
+    font-style: 22px;
+    cursor: pointer;
+}
