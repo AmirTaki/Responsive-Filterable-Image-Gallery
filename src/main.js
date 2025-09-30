@@ -13,4 +13,5 @@ const preview  = (element) => {
     document.querySelector('body').style.overflow = 'hidden'
 
     let selectedPrevImg =  element.querySelector("img").src;
+    previewImg.src = selectedPrevImg;
 } 
