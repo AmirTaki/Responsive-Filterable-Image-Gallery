@@ -68,3 +68,9 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
+.gallery .image img {
+    width: 100%;
+    vertical-align: middle;
+    transition:  all .3s ease;
+}
