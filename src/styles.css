@@ -62,3 +62,9 @@ body {
     width: calc(100% / 4);
     padding: 7px;
 }
+
+.gallery .image span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
