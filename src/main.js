@@ -33,6 +33,9 @@ window.onload = () => {
             filterItem.querySelector('.active').classList.remove('active')
             selectedItem.target.classList.add('active')   
             let filterName = selectedItem.target.getAttribute('data-name')
+            filterImg.forEach((image) => {
+                let filterimages = image.getAttribute('data-name')
+            })
         }
     }
 }
