@@ -179,3 +179,11 @@ body {
         width: calc(100% / 2);
     }
 }
+@media (max-width: 700px) {
+   .wrapper nav .itmes {
+    max-width: 600px;
+   }
+   nav .itmes span {
+    padding: 7px 15px;
+   }
+}
