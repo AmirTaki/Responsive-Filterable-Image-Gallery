@@ -21,6 +21,8 @@ const preview  = (element) => {
     previewBox.classList.add('show')
     shadow.classList.add('show')
     closeIcon.onClick = () => {
-        
+        previewBox.classList.remove("show")
+        shadow.classList.remove('show')
+        document.querySelector('body').style.overflow = 'auto'
     }
 } 
