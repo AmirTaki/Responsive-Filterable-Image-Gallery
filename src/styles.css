@@ -147,3 +147,8 @@ body {
     width: 100%;
     display: flex;
 }
+
+.image-box img {
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+}
