@@ -125,3 +125,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.details .title {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+}
