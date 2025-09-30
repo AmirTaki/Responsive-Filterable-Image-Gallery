@@ -29,6 +29,8 @@ const preview  = (element) => {
 
 window.onload = () => {
     filterItem.onClick = (selectedItem) => {
-        
+        if(selectedItem.target.classList.contains('item')){
+            
+        }
     }
 }
