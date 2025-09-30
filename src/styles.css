@@ -82,3 +82,16 @@ body {
 .gallery .image.hide {
     display: none;
 }
+
+.gallery .image.show {
+    animation: animate .4s ease;
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
