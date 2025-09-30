@@ -118,3 +118,10 @@ body {
     transform: translate(-50%, -50%) scale(1);
     transition: all .3s ease;
 }
+
+.preview-box .details {
+    padding: 13px 15px 13px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
