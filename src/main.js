@@ -7,3 +7,8 @@ const previewImg = previewBox.querySelector("img")
 const closeIcon = previewBox.querySelector(".icon")
 const shadow = previewBox.querySelector(".shadow")
 
+
+
+const preview  = (element) => {
+    document.querySelector('body').style.overflow = 'hidden'
+} 
