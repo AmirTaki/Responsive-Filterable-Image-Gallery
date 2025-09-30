@@ -51,7 +51,7 @@ window.onload = () => {
         }
     }
     for (let i = 0; i< filterImg.length; i++){
-
+        filterImg[i].setAttribute('onclick', preview(this))
     }
 }
 
