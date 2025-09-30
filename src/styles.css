@@ -142,3 +142,8 @@ body {
     font-style: 22px;
     cursor: pointer;
 }
+
+.preview-box .image-box {
+    width: 100%;
+    display: flex;
+}
