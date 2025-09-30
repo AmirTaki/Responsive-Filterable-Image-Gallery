@@ -43,6 +43,10 @@ body {
     border-radius: 50px;
     border: 2px solid #007bff;
     transition: all .3s ease;
+}
 
-
+.items span.active, 
+.items span:hover {
+    color: #fff;
+    background: #007bff;
 }
