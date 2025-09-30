@@ -26,3 +26,9 @@ const preview  = (element) => {
         document.querySelector('body').style.overflow = 'auto'
     }
 } 
+
+window.onload = () => {
+    filterItem.onClick = (selectedItem) => {
+        
+    }
+}
