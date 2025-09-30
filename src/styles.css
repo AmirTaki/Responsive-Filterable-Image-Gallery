@@ -187,3 +187,15 @@ body {
     padding: 7px 15px;
    }
 }
+@media (max-width: 600px) {
+    .wrapper{
+        margin: 30px auto;
+    }
+   .wrapper nav .itmes {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   nav .itmes span {
+    margin: 5px;
+   }
+}
