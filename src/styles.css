@@ -33,3 +33,16 @@ body {
     width: 100%;
     justify-content: space-between;
 }
+
+.items span {
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #007bff;
+    border-radius: 50px;
+    border: 2px solid #007bff;
+    transition: all .3s ease;
+
+
+}
