@@ -32,6 +32,7 @@ window.onload = () => {
         if(selectedItem.target.classList.contains('item')){
             filterItem.querySelector('.active').classList.remove('active')
             selectedItem.target.classList.add('active')   
+            let filterName = selectedItem.target.getAttribute('data-name')
         }
     }
 }
