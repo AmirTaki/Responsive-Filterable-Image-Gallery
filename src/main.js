@@ -17,4 +17,10 @@ const preview  = (element) => {
 
     previewImg.src = selectedPrevImg;
     categoryName.textContent = selectedImgCategory
+
+    previewBox.classList.add('show')
+    shadow.classList.add('show')
+    closeIcon.onClick = () => {
+        
+    }
 } 
