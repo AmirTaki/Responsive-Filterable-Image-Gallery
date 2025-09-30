@@ -40,7 +40,7 @@ window.onload = ()=>{
           image.classList.remove("hide"); 
           image.classList.add("show"); 
         }
-        
+
         else{
           image.classList.add("hide"); 
           image.classList.remove("show"); 
@@ -49,7 +49,7 @@ window.onload = ()=>{
     }
   }
   for (let i = 0; i < filterImg.length; i++) {
-    filterImg[i].setAttribute("onclick", "preview(this)"); 
+    filterImg[i].setAttribute("onclick", preview(this)); 
   }
 }
 
