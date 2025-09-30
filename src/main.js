@@ -50,4 +50,8 @@ window.onload = () => {
             })
         }
     }
+    for (let i = 0; i< filterImg.length; i++){
+
+    }
 }
+
