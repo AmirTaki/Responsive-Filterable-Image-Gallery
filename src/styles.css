@@ -167,3 +167,9 @@ body {
 .shadow.show {
     display: block
 }
+
+@media (max-width: 1000px) {
+    .gallery .image {
+        width: calc(100% / 3);
+    }
+}
