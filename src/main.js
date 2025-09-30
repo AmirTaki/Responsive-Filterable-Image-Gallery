@@ -9,7 +9,7 @@ const shadow = document.querySelector(".shadow")
 
 
 
-const preview  = (element) => {
+function preview (element) {
     console.log(element)
     document.querySelector('body').style.overflow = 'hidden'
 
