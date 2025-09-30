@@ -173,3 +173,9 @@ body {
         width: calc(100% / 3);
     }
 }
+
+@media (max-width: 800px) {
+    .gallery .image {
+        width: calc(100% / 2);
+    }
+}
