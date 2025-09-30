@@ -5,11 +5,12 @@ const previewBox = document.querySelector(".preview-box")
 const categoryName = previewBox.querySelector(".title p")
 const previewImg = previewBox.querySelector("img")
 const closeIcon = previewBox.querySelector(".icon")
-const shadow = previewBox.querySelector(".shadow")
+const shadow = document.querySelector(".shadow")
 
 
 
 const preview  = (element) => {
+    console.log(element)
     document.querySelector('body').style.overflow = 'hidden'
 
     let selectedPrevImg =  element.querySelector("img").src;
@@ -51,7 +52,7 @@ window.onload = () => {
         }
     }
     for (let i = 0; i< filterImg.length; i++){
-        filterImg[i].setAttribute('onclick', "preview(this)")
+        filterImg[i].setAttribute('onclick', preview(this))
     }
 }
 
